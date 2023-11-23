@@ -276,10 +276,6 @@ body{
 .mail-bg{
   background-color: #ffffff;
 }
-.corner{
-  border-top-right-radius: 1 !important;
-  border-bottom-right-radius: 1 !important;
-}
 /* ==< End Contact e-mail >==*/
 /* ==< Footer >==*/
 .footer-title{
@@ -344,5 +340,29 @@ body{
   .block-products-set__product-buttons-view {
     visibility: hidden;
     position: absolute;
+  }
+}
+/* ==< All products-products page >== */
+.filter-product{
+  border: 1px solid #cb486b;
+  border-radius: 10px;
+  margin: 0 0 6%;
+}
+.filter-p{
+  width: 20%;
+}
+.filter-p>*{
+  padding: 10px;
+}
+.form-check-input:checked {
+  background-color:#ffcae6;
+  border-color:#000;
+}
+
+@media only screen and (max-width: 992px){
+  .filter-p{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1;
   }
 }
