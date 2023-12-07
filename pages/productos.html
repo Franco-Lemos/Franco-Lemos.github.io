@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cocoa-Kanel es una cafetería dirigida a prestar servicio y atención de calidad hogareña.">
   <link rel="shortcut icon" href="../favicon.svg" type="image/x-icon" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!-- Owl Carousel CSS -->
@@ -21,14 +22,14 @@
   <div class="banner-login d-none d-lg-block">
     <ul class="row justify-content-between list-m fw-bold">
       <div class="col-4 login-text">
-        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="">Crear cuenta</a></li>
-        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="">|</a></li>
-        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="">Iniciar sesión</a></li>
+        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="../index.html">Crear cuenta</a></li>
+        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="../index.html">|</a></li>
+        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="../index.html">Iniciar sesión</a></li>
       </div>
       <div class="col-4 text-end login-text">
-        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="">Próximamente</a></li>
-        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="">|</a></li>
-        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="">Contacto</a></li>
+        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="../index.html">Próximamente</a></li>
+        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="../index.html">|</a></li>
+        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="#contactos">Contacto</a></li>
       </div>
     </ul>
   </div>
@@ -67,17 +68,21 @@
                 INFORMACIÓN
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item text--primary fw-bold" href="./ubicacion.html">Ubicación</a></li>
+                <li><a class="dropdown-item text--primary fw-bold" href="./ubicacion.html">Preguntas Frecuentes</a></li>
                 <li><a class="dropdown-item nav-link disabled" aria-disabled="true" href="#">Próximamente</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item nav-link disabled" aria-disabled="true" href="#">Próximamente</a></li>
               </ul>
             </li>
+            <li>
+              <div class="search">
+                <input type="text" placeholder="Buscar">
+                  <div class="btn-search">
+                    <i class="fa fa-search"></i>
+                  </div>
+              </div>
+            </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
-            <button class="btn btn-pink__nav" type="submit">Buscar</button>
-          </form>
         </div>
       </div>
     </nav>
@@ -92,167 +97,79 @@
       </div>
       <div class="container-fluid col-11 col-sm-12 mb-5">
         <div class="row">
-            <div class="col-3 p-3 pt-0 filter-p fw-bold">
-                <div class="filter-product">[Filtro 1 Próximamente]
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      Default تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
+            <div class="col-3 p-3 pt-0 filter-p fw-bold filter-text__size">
+              <div class="filter-container">
+                <!-- <img src="../assets/img/filter.jpg" alt="Cupcake wallpaper"> -->
+                <div class="filter-body">
+                  <div><h2>Categorías</h2></div>
+                  <hr>
+                  <div class="container-fluid">
+                    </div>
+                    <ul class="list-deco fs-4">
+                      <li><a href="">Copas dulces</a></li>
+                      <li><a href="">Macarons</a></li>
+                      <li><a href="">Cheesecakes</a></li>
+                      <li><a href="">Tortas y Tartas</a></li>
+                      <li><a href="">Pastelería para Té</a></li>
+                      <li><a href="">Tazas</a></li>
+                      <li><a href="">Celebraciones</a></li>
+                      <li><a href="">Cursos y talleres</a></li>
+                      <li><a href="">Cookies</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="filter-container">
+                <div class="filter-body">
+                  <div><h2>Relleno</h2></div>
+                  <hr>
+                  <div class="container-fluid filter-tags__container section-block__quarter">
+                    <div class="container-fluid col-12">
+                      <div class="text-center fw-bold">
+                        <ul class="text-uppercase filter-tags__list row align-items-center">
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">pastelera</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">pistachos</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">mascarpone</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">frutos rojos</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">nueces</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">chocolate blanco</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">d. de leche</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">chantilly</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">chocolate amargo</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./productos.html">ricota</a></li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="filter-product">[Filtro 2 Próximamente]
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      Default تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
+              </div>
+              <div class="filter-container">
+                <div class="filter-body">
+                  <div><h2>Eventos</h2></div>
+                  <hr>
+                  <div class="container-fluid filter-tags__container section-block__quarter">
+                    <div class="container-fluid col-12">
+                      <div class="text-center fw-bold">
+                        <ul class="text-uppercase filter-tags__list row align-items-center">
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">cumpleaños</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">casamiento</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">despedida de solteros</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">café</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">merienda</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">catering de fiesta</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">aniversario</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">baby shower</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">números</a></li>
+                          <li class="filter-tags__item-list contrast_text--primari col"><a class="filter-tags__link text--primary" href="./pages/productos.html">tentempiés dulces</a></li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="filter-product">[Filtro 3 Próximamente]
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      Default تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                </div>
-                <div class="filter-product">[Filtro 4 Próximamente]
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      Default تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                </div>
-                <div class="filter-product">[Filtro 5 Próximamente]
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      Default تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                </div>
-                <div class="filter-product">[Filtro 6 Próximamente]
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      Default تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      تقريبًا هناك شيء ما
-                    </label>
-                  </div>
-                </div>
+              </div>
                 <!-- Contenido de la primera columna -->
             </div>
             <div class="col">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 g-4">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
                   <div class="col">
                     <div class="card text-center shadow bg-body-tertiary rounded  contenedor">
                       <div>
@@ -564,11 +481,11 @@
           </ul>
         </div>
         <!-- Contact information section -->
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0" id="contactos">
           <h5 class="text-uppercase footer-title">Contacto</h5>
           <ul class="list-unstyled mb-0 pay-methods__contact">
             <li>
-              <a href="#!" class="text--primary fw-bold">Dirección: InMyHome 42</a>
+              <a href="#!" class="text--primary fw-bold">Dirección: Argentina, San Luis</a>
             </li>
             <li>
               <a href="#!" class="text--primary fw-bold">Tel:+5492664166634</a>
