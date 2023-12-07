@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cocoa-Kanel es una cafetería dirigida a prestar servicio y atención de calidad hogareña.">
   <link rel="shortcut icon" href="../favicon.svg" type="image/x-icon" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!-- Owl Carousel CSS -->
   <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
-  <link rel="stylesheet" href="../styles/style-2.css">
   <link rel="stylesheet" href="../styles/style.css">
   <title>Cocoa Kanel</title>
 </head>
@@ -22,14 +22,14 @@
   <div class="banner-login d-none d-lg-block">
     <ul class="row justify-content-between list-m fw-bold">
       <div class="col-4 login-text">
-        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="">Crear cuenta</a></li>
-        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="">|</a></li>
-        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="">Iniciar sesión</a></li>
+        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="../index.html">Crear cuenta</a></li>
+        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="../index.html">|</a></li>
+        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="../index.html">Iniciar sesión</a></li>
       </div>
       <div class="col-4 text-end login-text">
-        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="">Próximamente</a></li>
-        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="">|</a></li>
-        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="">Contacto</a></li>
+        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="../index.html">Próximamente</a></li>
+        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="../index.html">|</a></li>
+        <li class="d-inline"><a class="link-offset-2 link-underline link-underline-opacity-0" href="#contactos">Contacto</a></li>
       </div>
     </ul>
   </div>
@@ -68,17 +68,21 @@
                 INFORMACIÓN
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item text--primary fw-bold" href="./ubicacion.html">Ubicación</a></li>
+                <li><a class="dropdown-item text--primary fw-bold" href="./ubicacion.html">Preguntas Frecuentes</a></li>
                 <li><a class="dropdown-item nav-link disabled" aria-disabled="true" href="#">Próximamente</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item nav-link disabled" aria-disabled="true" href="#">Próximamente</a></li>
               </ul>
             </li>
+            <li>
+              <div class="search">
+                <input type="text" placeholder="Buscar">
+                  <div class="btn-search">
+                    <i class="fa fa-search"></i>
+                  </div>
+              </div>
+            </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
-            <button class="btn btn-pink__nav" type="submit">Buscar</button>
-          </form>
         </div>
       </div>
     </nav>
@@ -87,12 +91,82 @@
   <!-- ==< End of header >== -->
   <!-- ==< Main content >== -->
   <main>
-    <div class="first title">
-      <h1>¡Nuestro mejor curso para preparar un bizcochuelo!</h1>
-    </div>
     <section>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/zqQcSAXy1VY?si=SrCJ11IweJUnBmbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div class="container-fluid col-sm-12 col-xl-10">
+        <h1 class="text-center my-5 animate fw-bold">Cursos de Pastelería</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 g-5">
+            <div class="col-sm-4 animate">
+                <div class="card">
+                    <img src="../assets/img/curso_1.jpg" class="card-img-top" alt="Curso 1 - Decoración Wilton.">
+                    <div class="card-body">
+                        <h5 class="card-title text--primary fw-bold">Curso 1 Método Wilton</h5>
+                        <hr>
+                        <p class="card-text">Las técnicas y métodos desarrollados por ellos han capacitado a generaciones de pasteleros en distintos países y se ha convertido es la manera más fácil de aprender a decorar o de mejorar tus habilidades en repostería.</p>
+                        <a href="https://www.originalprofesional.com.ar/secciones/que-es-el-metodo-wilton.html" class="btn-pink" rel="noreferrer noopener" target="_blank">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 animate">
+                <div class="card">
+                    <img src="../assets/img/curso_2.jpg" class="card-img-top" alt="Curso 2 - Decoración Wilton.">
+                    <div class="card-body">
+                        <h5 class="card-title text--primary fw-bold">Curso 1 Método Wilton</h5>
+                        <hr>
+                        <p class="card-text">Las técnicas y métodos desarrollados por ellos han capacitado a generaciones de pasteleros en distintos países y se ha convertido es la manera más fácil de aprender a decorar o de mejorar tus habilidades en repostería.</p>
+                        <a href="https://www.originalprofesional.com.ar/secciones/que-es-el-metodo-wilton.html" class="btn-pink" rel="noreferrer noopener" target="_blank">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 animate">
+                <div class="card">
+                    <img src="../assets/img/curso_3.jpg" class="card-img-top" alt="Curso 3 - Decoración Wilton.">
+                    <div class="card-body">
+                        <h5 class="card-title text--primary fw-bold">Curso 1 Método Wilton</h5>
+                        <hr>
+                        <p class="card-text">Las técnicas y métodos desarrollados por ellos han capacitado a generaciones de pasteleros en distintos países y se ha convertido es la manera más fácil de aprender a decorar o de mejorar tus habilidades en repostería.</p>
+                        <a href="https://www.originalprofesional.com.ar/secciones/que-es-el-metodo-wilton.html" class="btn-pink" rel="noreferrer noopener" target="_blank">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 animate">
+                <div class="card">
+                    <img src="../assets/img/curso_4.jpg" class="card-img-top" alt="Curso Decoración de tortas."">
+                    <div class="card-body">
+                        <h5 class="card-title text--primary fw-bold">Curso "Decoración de Tortas".</h5>
+                        <hr>
+                        <p class="card-text">Lista de cursos para "Decoración de Tortas" en los cuales te enseñamos a desarrollar tus habilidades con los utensilios y tu imaginación.</p>
+                        <a href="https://www.youtube.com/playlist?list=PLOFRLnnHS1FBqX0QyL7CQmxA58_22VZpf" class="btn-pink" rel="noreferrer noopener" target="_blank">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 animate">
+                <div class="card">
+                    <img src="../assets/img/curso_5.jpg" class="card-img-top" alt="Curso Postres de mesa dulce.">
+                    <div class="card-body">
+                        <h5 class="card-title text--primary fw-bold">Curso "Postres de Mesa Dulce".</h5>
+                        <hr>
+                        <p class="card-text">Encuentra las recetas más ricas y originales para crear una mesa dulce que sea inolvidable combinando sabores y diferentes presentaciones.
+                          Aprende desde cero, a tu ritmo, sin moverte de tu casa y sin horarios.</p>
+                        <a href="https://www.youtube.com/watch?v=RJrqmmYHOvs&ab_channel=LeonardoEspinoza" class="btn-pink" rel="noreferrer noopener" target="_blank">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 animate">
+                <div class="card">
+                    <img src="../assets/img/curso_6.jpg" class="card-img-top" alt="Curso Elaboración de Macaron's.">
+                    <div class="card-body">
+                        <h5 class="card-title text--primary fw-bold">Curso "Elaboración de Macaron's".</h5>
+                        <hr>
+                        <p class="card-text">Aprender a elaborar Macaron's, trabajando con los insumos y utensilios necesarios para prepararlos y así, identificar los elementos esenciales con los que se debe de contar para hacerlos.</p>
+                        <a href="https://www.youtube.com/watch?v=hJU07xdH1Sw&ab_channel=ESCUELACURSOSDECOCINA" class="btn-pink" rel="noreferrer noopener" target="_blank">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repite para los otros cursos -->
+        </div>
+    </div>
     </section>
+    
   </main>
   <!-- ==< End Main content >== -->
   <!-- ==< Mail >== -->
@@ -161,11 +235,11 @@
           </ul>
         </div>
         <!-- Contact information section -->
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0" id="contactos">
           <h5 class="text-uppercase footer-title">Contacto</h5>
           <ul class="list-unstyled mb-0 pay-methods__contact">
             <li>
-              <a href="#!" class="text--primary fw-bold">Dirección: InMyHome 42</a>
+              <a href="#!" class="text--primary fw-bold">Dirección: Argentina, San Luis</a>
             </li>
             <li>
               <a href="#!" class="text--primary fw-bold">Tel:+5492664166634</a>
