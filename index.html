@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta 
-    name="Cocoa-Kanel-Cafetería" 
-    content="Cocoa es una cafetería dirigida a prestar servicio y atención de calidad hogareña.">
+  <meta name="description" content="Cocoa-Kanel es una cafetería dirigida a prestar servicio y atención de calidad hogareña.">
   <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!-- Owl Carousel CSS -->
@@ -49,9 +47,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-right mb-2 mb-lg-0 fw-bold">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./index.html">INICIO</a>
+              <a class="nav-link link-h" aria-current="page" href="./index.html">INICIO</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item link-h">
               <a class="nav-link" href="./pages/curso.html">CURSOS</a>
             </li>
             <li class="nav-item dropdown"> 
@@ -69,18 +67,22 @@
               <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 INFORMACIÓN
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item text--primary fw-bold" href="./pages/ubicacion.html">Ubicación</a></li>
+              <ul class="dropdown-menu mb-3">
+                <li><a class="dropdown-item text--primary fw-bold" href="./pages/ubicacion.html">Preguntas Frecuentes</a></li>
                 <li><a class="dropdown-item nav-link disabled" aria-disabled="true" href="#">Próximamente</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item nav-link disabled" aria-disabled="true" href="#">Próximamente</a></li>
               </ul>
             </li>
+            <li>
+              <div class="search">
+                <input type="text" placeholder="Buscar">
+                  <div class="btn-search">
+                    <i class="fa fa-search"></i>
+                  </div>
+              </div>
+            </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
-            <button class="btn btn-pink__nav" type="submit">Buscar</button>
-          </form>
         </div>
       </div>
     </nav>
@@ -94,25 +96,25 @@
       <div id="carouselExampleInterval" class="carousel slide col-xl-9 col-lg-9 col-sm-12 container-fluid" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="./assets/img/Upscale/banner-principal.png" class="d-block w-100" alt="Bienvenida a Cocoa Kanel, imagen con cesta de panes">
+            <img src="./assets/img/Upscale/banner-principal.jpg" class="d-block w-100" alt="Bienvenida a Cocoa Kanel, imagen con cesta de panes">
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="./assets/img/Upscale/cake1.png" class="d-block w-100" alt="imagen de una torta café moka">
+            <img src="./assets/img/Upscale/cake-b.jpg" class="d-block w-100" alt="imagen de una torta café moka">
           </div>
           <div class="carousel-item">
-            <img src="./assets/img/Upscale/cake2.png" class="d-block w-100" alt="imagen de torta de waffle con frutos rojos">
+            <img src="./assets/img/Upscale/cake-b1.jpg" class="d-block w-100" alt="imagen de torta de waffle con frutos rojos">
           </div>
           <div class="carousel-item">
-            <img src="./assets/img/Upscale/cake5.png" class="d-block w-100" alt="imagen de torta de piña y ciruelas">
+            <img src="./assets/img/Upscale/cake-b2.jpg" class="d-block w-100" alt="imagen de torta de piña y ciruelas">
           </div>
           <div class="carousel-item">
-            <img src="./assets/img/Upscale/cake3.png" class="d-block w-100" alt="imagen de torta de limón glaseada con rodajas de limón encima">
+            <img src="./assets/img/Upscale/cake-b3.jpg" class="d-block w-100" alt="imagen de torta de limón glaseada con rodajas de limón encima">
           </div>
           <div class="carousel-item">
-            <img src="./assets/img/Upscale/cake6.png" class="d-block w-100" alt="imagen de brownie con galletas oreo y cerezas">
+            <img src="./assets/img/Upscale/cake-b4.jpg" class="d-block w-100" alt="imagen de brownie con galletas oreo y cerezas">
           </div>
           <div class="carousel-item">
-            <img src="./assets/img/Upscale/cake4.png" class="d-block w-100" alt="imagen de torta de cumpleaños decorada con crema, chispas multicolor y galletas oreo blancas">
+            <img src="./assets/img/Upscale/cake-b5.jpg" class="d-block w-100" alt="imagen de torta de cumpleaños decorada con crema, chispas multicolor y galletas oreo blancas">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -129,7 +131,7 @@
     <!-- ==< Quick tags >== -->
     <section class="container-fluid col-xxl-12 quick-tags__container section-block__quarter">
       <div class="container-fluid col-md-9">
-        <div class="text-center">
+        <div class="text-center fw-bold">
           <ul class="text-uppercase quick-tags__list row align-items-center">
             <li class="quick-tags__item-list contrast_text--primari col"><a class="quick-tags__link text--primary" href="./pages/productos.html">cheesecakes</a></li>
             <li class="quick-tags__item-list contrast_text--primari col"><a class="quick-tags__link text--primary" href="./pages/productos.html">tortas y tartas</a></li>
@@ -680,13 +682,13 @@
           <h5 class="text-uppercase footer-title">Contacto</h5>
           <ul class="list-unstyled mb-0 pay-methods__contact">
             <li>
-              <a href="#!" class="text--primary fw-bold">Dirección: InMyHome 42</a>
+              <a href="#!" class="text--primary">Dirección: Argentina, San Luis</a>
             </li>
             <li>
-              <a href="#!" class="text--primary fw-bold">Tel:+5492664166634</a>
+              <a href="#!" class="text--primary">Tel:+5492664166634</a>
             </li>
             <li>
-              <a href="#!" class="text--primary fw-bold">Correo: fran.uvs@gmail.com</a>
+              <a href="#!" class="text--primary">Correo: fran.uvs@gmail.com</a>
             </li>
           </ul>
         </div>
