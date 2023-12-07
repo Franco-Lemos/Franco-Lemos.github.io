@@ -1,0 +1,79 @@
+/* ==< Media query's >== */
+@use 'variables';
+@use 'mixins';
+
+@media only screen and (max-width: 640px) {
+  .product-title {
+    font-size: 2em;
+  }
+}
+
+/* < Card buy button > */
+@media only screen and (max-width: 768px) {
+  .oculto {
+    position: static;
+    background-color: #ffffff00;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .block-products-set__product-buttons-buy {
+    margin: -23px 10px 10px 10px;
+  }
+
+  .block-products-set__product-buttons-view {
+    visibility: hidden;
+    position: absolute;
+  }
+}
+
+/* ==< All products >== */
+@media only screen and (max-width: 992px) {
+  .filter-p {
+    position: absolute;
+    visibility: hidden;
+    z-index: -1;
+  }
+}
+
+/* ==< Search bar >==*/
+@media only screen and (max-width: 992px){
+  
+  .search {
+    display: contents;
+    input{
+      position: absolute;
+    }
+  }
+  .btn-search {
+    position: relative;
+    right: unset;
+  }
+
+  .search:hover {
+    input {
+      padding: 0 10px 0 50px;
+    }
+  }
+}
+/* ==< Filter Section - Product page >==*/
+@media only screen and (max-width: 1293px){
+  .filter-text__size{
+    font-size: 23px;
+  }
+  .filter-container{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1052px){
+  .filter-text__size{
+    font-size: 21px !important;
+  }
+}
+/* ==< Chef Section - Orders page >==*/
+
+@media only screen and (max-width: 992px){
+  .chef{
+    display: none;
+  }
+}

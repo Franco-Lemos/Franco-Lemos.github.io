@@ -1,0 +1,79 @@
+@use 'variables';
+@use 'reset';
+@use 'fuentes';
+@use 'header';
+@use 'carousel';
+@use 'quickTags';
+@use 'cards';
+@use 'footer';
+@use 'pedidos';
+@use 'cursos';
+@use 'preguntasFrecuentes';
+@use 'productos';
+@use 'ubicacion';
+@use 'responsive';
+@use 'mixins';
+/* ==< Purchase info >== */
+.purchase-info__item {
+  border-left: 1px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-style: solid;
+  list-style: none;
+
+  &:first-child {
+    border-left: 0px;
+  }
+}
+
+.purchase__item-icon {
+  font-size: 1.5em;
+}
+
+.purchase__item-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.purchase__item-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.mar-0 {
+  margin-bottom: 0;
+}
+
+/* ==< End Purchase info >== */
+/* ==< Contact e-mail >==*/
+
+.mail-text {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.mail-bg {
+  background-color: #ffffff;
+}
+
+/* ==< End Contact e-mail >==*/
+
+.form-check-input:checked {
+  background-color: variables.$secondary-color;
+  border-color: #000;
+}
+
+
+/* ==< Bootstrap 5.3.2 >== */
+
+.form-control:focus {
+  border-color: variables.$secondary-color;
+  box-shadow: 0 0 0 0.25rem rgb(255, 214, 236,.75);
+}
+
+.form-select:focus {
+  border-color: variables.$secondary-color;
+  box-shadow: 0 0 0 0.25rem rgb(255, 214, 236,.75);
+}

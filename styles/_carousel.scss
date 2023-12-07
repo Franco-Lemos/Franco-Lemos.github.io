@@ -1,0 +1,23 @@
+/* ==< Carousel >==*/
+
+.carousel-item {
+  transition: transform 0.8s ease-in-out;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../assets/img/angle-right.svg);
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../assets/img/angle-left.svg);
+}
+
+.carousel-control-next, .carousel-control-prev {
+  opacity: 1;
+  width: 10%;
+}
+/* ==< Owl carousel >==*/
+
+.owl-nav {
+  visibility: hidden;
+}

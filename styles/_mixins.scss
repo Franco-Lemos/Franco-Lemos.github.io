@@ -1,0 +1,20 @@
+/* ==< Mixins >==*/
+@use 'variables';
+@mixin links{
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+@mixin list-decoration{
+  list-style: none;
+  padding-left: 0;
+
+  a {
+    text-decoration: none;
+    color: #cc486b;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

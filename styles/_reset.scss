@@ -1,0 +1,14 @@
+@use 'variables';
+@use 'mixins';
+*{
+  font-family: 'jost', sans-serif;;
+}
+body{
+  background-color: variables.$bg-body;
+}
+.text--primary, .text--primary-hover:hover, body {
+  color: variables.$primary-color !important;
+}
+.contrast_text--primary, .contrast_text--primary-hover:hover {
+  color: variables.$primary-color;
+}

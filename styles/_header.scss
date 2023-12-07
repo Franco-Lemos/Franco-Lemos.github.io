@@ -1,0 +1,139 @@
+@use 'variables';
+@use 'mixins';
+/* ==< Header >==*/
+.background-primary {
+  background-color: variables.$secondary-color;
+}
+
+.announcement-text {
+  color: variables.$primary-color;
+  font-size: 16px;
+  margin: 0 !important;
+}
+
+.header-announcement {
+  padding: 10px 25px;
+}
+
+.banner-login {
+  background: #fff;
+}
+
+.login-text a {
+  text-decoration: none;
+  color: variables.$primary-color !important;
+  font-size: 18px;
+}
+
+.list-m {
+  margin-bottom: 0rem;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+
+.nav {
+  background-color: #f7f7f760;
+  backdrop-filter: blur(0.6em);
+}
+
+.nav-logo {
+  margin-left: 30px;
+}
+
+.me-right {
+  margin-left: auto !important;
+}
+
+.navbar-toggler {
+  color: transparent;
+  background-color: variables.$secondary-color;
+}
+
+.navbar-nav {
+  --bs-nav-link-color:variables.$primary-color;
+  --bs-nav-link-hover-color:var(--bs-navbar-hover-color);
+}
+
+/* ==< Button search >== */
+.btn-pink__nav {
+  color: variables.$primary-color;
+  background-color: variables.$secondary-color;
+  display: inline-block;
+  padding: 0px 30px;
+  font-size: 19px;
+  font-weight: bolder;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 34px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.search {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px; //acá agrego el tamaño del contenedor
+
+  input {
+    outline: none;
+    box-sizing: border-box;
+    height: 37px;
+    width: 0px;
+    padding: 0 20px;
+    color: #6c6c6c;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid variables.$primary-color;
+    transition: all .7s ease;
+    background-color: transparent;
+  }
+}
+
+::placeholder {
+  color: grey;
+}
+
+.btn-search {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -2px;
+  top: -2px;
+  width: 44px;
+  height: 42px;
+  // background: white;
+  line-height: 80px;
+  border: 3px solid variables.$primary-color;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s;
+  background-color: #f7f7f710;
+  backdrop-filter: blur(0.9em);
+
+  i {
+    font-size: 25px;
+    color: variables.$primary-color;
+    line-height: 80px;
+    transition: all .7s ease;
+  }
+}
+
+.search:hover {
+  input {
+    width: 350px;
+  }
+
+  i {
+    transform: rotate(-360deg);
+  }
+}
+
+.btn-search:hover {
+  background-color: transparent;
+}
+

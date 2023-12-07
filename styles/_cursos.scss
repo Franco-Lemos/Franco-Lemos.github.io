@@ -1,0 +1,15 @@
+/* ==< Courses - Courses page >== */
+@use 'variables';
+@use 'mixins';
+.animate {
+  animation: slideInFromLeft 1s ease-in-out;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}

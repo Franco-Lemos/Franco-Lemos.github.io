@@ -1,0 +1,150 @@
+/* ==< Cards Grid >==*/
+@use 'variables';
+@use 'mixins';
+.product-title {
+  font-size: 50px;
+  color: variables.$primary-color;
+}
+
+/* < Card Price > */
+
+.products-block__product-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: -0.40px;
+  margin: 0px 0px 5px 0px;
+  color: variables.$product-name !important;
+
+  &:hover {
+    text-decoration-line: underline;
+  }
+}
+
+.products-block__product-price {
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: variables.$price !important;
+  display: flex;
+  justify-content: center;
+
+  del {
+    color: variables.$price-del;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: block;
+    margin: 0.5px 0px 0px 5px;
+  }
+}
+
+.products-block__product-additional {
+  margin-top: 2px;
+  font-size: 0.75rem;
+  font-weight: 400;
+  justify-content: center;
+}
+
+.padding-card {
+  margin-top: 50px;
+}
+
+.shadow:hover {
+  box-shadow: 0 1rem 3rem variables.$primary-color;
+}
+
+.btn-pink {
+  color: variables.$primary-color;
+  background-color: variables.$secondary-color;
+  display: inline-block;
+  padding: 0px 30px;
+  font-size: 19px;
+  font-weight: bolder;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 43px;
+  text-decoration: none;
+  border: 0px;
+  border-radius: 20px;
+
+  &:hover {
+    color: variables.$primary-color;
+    background-color: variables.$secondary-color-hover;
+  }
+}
+
+/* < Function Hidden > */
+
+.oculto {
+  position: absolute;
+  background-color: #ffffff;
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.buttons {
+  position: relative;
+  top: calc(50% - 50px);
+}
+
+.card {
+  z-index: 0;
+}
+
+.contenedor {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover .oculto {
+    transition: all 0.5s;
+    opacity: 1;
+    z-index: 1;
+    visibility: visible;
+  }
+}
+
+.btn-pink__card {
+  color: variables.$primary-color;
+  background-color: variables.$secondary-color;
+  font-size: 19px;
+  height: 40px;
+  vertical-align: middle;
+  text-decoration: none;
+
+  &:hover {
+    color: variables.$primary-color;
+    background-color: variables.$secondary-color-hover;
+  }
+}
+
+.block-products-set__product-buttons-buy {
+  border-radius: 40px;
+  text-align: center;
+  padding: 7.5px 30px 7.5px 30px;
+  margin: 10px 10px 10px 10px;
+  text-transform: uppercase;
+  line-height: 24px;
+  font-weight: bold;
+  display: block;
+}
+
+.block-products-set__product-buttons-view {
+  border-radius: 40px;
+  text-align: center;
+  padding: 7.5px 30px 7.5px 30px;
+  margin: 10px 10px 10px 10px;
+  text-transform: uppercase;
+  line-height: 24px;
+  font-weight: bold;
+  display: block;
+  margin: 15px 10px 10px 10px;
+}
+
+/* ==< End Card Grid >==*/

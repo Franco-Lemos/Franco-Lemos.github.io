@@ -1,0 +1,38 @@
+@use 'variables';
+@use 'mixins';
+/* ==< Quick tags >== */
+.quick-tags__container {
+  background-color: variables.$secondary-color;
+}
+
+.section-block__quarter {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.quick-tags__item-list {
+  box-sizing: content-box;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.quick-tags__link {
+  padding: 10px;
+  display: block;
+  border: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.quick-tags__list {
+  margin: 17.5px 0px 17.5px 0px;
+  padding-left: 0px;
+  text-wrap: nowrap;
+}

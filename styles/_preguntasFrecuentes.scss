@@ -1,0 +1,38 @@
+/* ==< Preguntas frecuentes >==*/
+@use 'variables';
+@use 'mixins';
+.section-block__actions, .section__heading {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.section-block__title, .section__title {
+  line-height: 1;
+  font-size: 2.62rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1.8px;
+  box-sizing: border-box;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0px 0px 30px 0px;
+}
+
+.breadcrumb__item {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+
+  &:first-child:after {
+    content: '/';
+    display: inline-block;
+    margin: 0px 10px;
+  }
+}
