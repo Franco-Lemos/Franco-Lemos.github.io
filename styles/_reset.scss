@@ -1,5 +1,6 @@
 @use 'variables';
-@use 'mixins';
+@import 'mixins';
+@import 'fonts';
 *{
   font-family: 'jost', sans-serif;;
 }

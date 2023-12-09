@@ -12,7 +12,8 @@
 @use 'productos';
 @use 'ubicacion';
 @use 'responsive';
-@use 'mixins';
+@import 'mixins';
+@import 'fonts';
 /* ==< Purchase info >== */
 .purchase-info__item {
   border-left: 1px;

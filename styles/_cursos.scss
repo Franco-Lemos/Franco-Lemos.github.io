@@ -1,6 +1,7 @@
 /* ==< Courses - Courses page >== */
 @use 'variables';
-@use 'mixins';
+@import 'mixins';
+@import 'fonts';
 .animate {
   animation: slideInFromLeft 1s ease-in-out;
 }

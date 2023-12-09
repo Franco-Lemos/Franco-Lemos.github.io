@@ -1,6 +1,7 @@
 /* ==< Footer >==*/
 @use 'variables';
-@use 'mixins';
+@import 'mixins';
+@import 'fonts';
 @mixin links{
   text-decoration: none;
   font-weight: bold;

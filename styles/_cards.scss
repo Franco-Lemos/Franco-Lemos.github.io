@@ -1,9 +1,10 @@
 /* ==< Cards Grid >==*/
 @use 'variables';
-@use 'mixins';
+@import 'mixins';
+@import 'fonts';
 .product-title {
   font-size: 50px;
-  color: variables.$primary-color;
+  @include title;
 }
 
 /* < Card Price > */

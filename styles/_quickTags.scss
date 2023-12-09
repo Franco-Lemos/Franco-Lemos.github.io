@@ -1,5 +1,6 @@
 @use 'variables';
-@use 'mixins';
+@import 'mixins';
+@import 'fonts';
 /* ==< Quick tags >== */
 .quick-tags__container {
   background-color: variables.$secondary-color;

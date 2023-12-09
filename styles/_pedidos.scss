@@ -1,8 +1,9 @@
 /* ==< Orders page >==*/
 @use 'variables';
-@use 'mixins';
+@import 'mixins';
+@import 'fonts';
 .order-background{
-  background: url(../assets/img/cocina.png) no-repeat center center;
+  background: url(../assets/img/webp/cocina.webp) no-repeat center center;
   background-size: cover;
   width: 100vw;
 }

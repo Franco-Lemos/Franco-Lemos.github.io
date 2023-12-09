@@ -1,5 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&family=Montserrat&family=Open+Sans&display=swap");
 /* ==< Mixins >==*/
+@font-face {
+  font-family: "jost";
+  src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "open-sans";
+  src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "play-fair";
+  src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+}
 * {
   font-family: "jost", sans-serif;
 }
@@ -16,6 +32,23 @@ body {
   color: #cc486b;
 }
 
+/* ==< Mixins >==*/
+@font-face {
+  font-family: "jost";
+  src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "open-sans";
+  src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "play-fair";
+  src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+}
 /* ==< Header >==*/
 .background-primary {
   background-color: #ffcae6;
@@ -107,6 +140,12 @@ body {
   transition: all 0.7s ease;
   background-color: transparent;
 }
+.search:hover input {
+  width: 350px;
+}
+.search:hover i {
+  transform: rotate(-360deg);
+}
 
 ::-moz-placeholder {
   color: grey;
@@ -142,13 +181,6 @@ body {
   transition: all 0.7s ease;
 }
 
-.search:hover input {
-  width: 350px;
-}
-.search:hover i {
-  transform: rotate(-360deg);
-}
-
 .btn-search:hover {
   background-color: transparent;
 }
@@ -176,6 +208,23 @@ body {
   visibility: hidden;
 }
 
+/* ==< Mixins >==*/
+@font-face {
+  font-family: "jost";
+  src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "open-sans";
+  src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "play-fair";
+  src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+}
 /* ==< Quick tags >== */
 .quick-tags__container {
   background-color: #ffcae6;
@@ -213,8 +262,26 @@ body {
 }
 
 /* ==< Cards Grid >==*/
+/* ==< Mixins >==*/
+@font-face {
+  font-family: "jost";
+  src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "open-sans";
+  src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "play-fair";
+  src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+}
 .product-title {
   font-size: 50px;
+  font-family: "play-fair";
   color: #cc486b;
 }
 
@@ -354,6 +421,23 @@ body {
 
 /* ==< End Card Grid >==*/
 /* ==< Footer >==*/
+/* ==< Mixins >==*/
+@font-face {
+  font-family: "jost";
+  src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "open-sans";
+  src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "play-fair";
+  src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+}
 .footer-title {
   font-size: 1.2em;
   font-weight: bold;
@@ -412,8 +496,25 @@ a:link, a:visited, a:active {
 
 /* ==< End Footer >== */
 /* ==< Orders page >==*/
+/* ==< Mixins >==*/
+@font-face {
+  font-family: "jost";
+  src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "open-sans";
+  src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "play-fair";
+  src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+}
 .order-background {
-  background: url(../assets/img/cocina.png) no-repeat center center;
+  background: url(../assets/img/webp/cocina.webp) no-repeat center center;
   background-size: cover;
   width: 100vw;
 }
@@ -457,6 +558,23 @@ a:link, a:visited, a:active {
 }
 
 /* ==< Courses - Courses page >== */
+/* ==< Mixins >==*/
+@font-face {
+  font-family: "jost";
+  src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "open-sans";
+  src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "play-fair";
+  src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+}
 .animate {
   animation: slideInFromLeft 1s ease-in-out;
 }
@@ -470,6 +588,7 @@ a:link, a:visited, a:active {
   }
 }
 /* ==< Preguntas frecuentes >==*/
+/* ==< Mixins >==*/
 .section-block__actions, .section__heading {
   margin-top: 70px;
   margin-bottom: 70px;
@@ -506,18 +625,31 @@ a:link, a:visited, a:active {
 }
 
 /* ==< All products-products page >== */
-.filter-text__size {
-  font-size: 24px;
+/* ==< Mixins >==*/
+@font-face {
+  font-family: "jost";
+  src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
 }
-
+@font-face {
+  font-family: "open-sans";
+  src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "play-fair";
+  src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+}
 .filter-container {
-  width: 80%;
+  width: auto;
   height: auto;
-  border: 2px solid #cc486b;
+  border: 2px solid #ffcae6;
   margin: 0px auto 30px auto;
   border-radius: 1rem;
   overflow: hidden;
-  background-image: url(../assets/img/filter.jpg);
+  background-image: url(../assets/img/cupcake8.jpg);
   background-size: cover;
 }
 
@@ -533,6 +665,8 @@ a:link, a:visited, a:active {
   padding: 16px 10px 0px 10px;
   margin: 0px 0px;
   font-weight: 700;
+  font-family: "play-fair";
+  color: #cc486b;
 }
 
 .filter-btn {
@@ -553,9 +687,9 @@ a:link, a:visited, a:active {
 }
 
 .list-deco {
+  margin-bottom: auto;
   list-style: none;
   padding-left: 0;
-  margin-bottom: auto;
 }
 .list-deco a {
   text-decoration: none;
@@ -563,6 +697,15 @@ a:link, a:visited, a:active {
 }
 .list-deco a:hover {
   text-decoration: underline;
+}
+.list-deco a {
+  font-weight: 500;
+  font-size: 100%;
+  -webkit-text-size-adjust: auto;
+     -moz-text-size-adjust: auto;
+          text-size-adjust: auto;
+  font-family: auto;
+  font-weight: 700;
 }
 
 .filter-tags__link {
@@ -585,6 +728,9 @@ a:link, a:visited, a:active {
 .filter-tags__item-list a {
   text-decoration: none;
 }
+.filter-tags__item-list a:hover {
+  background-color: #d0f2f3;
+}
 
 .filter-tags__list {
   margin: 17.5px 0px 17.5px 0px;
@@ -601,7 +747,25 @@ a:link, a:visited, a:active {
   padding-bottom: 5px;
 }
 
+/* ==< Mixins >==*/
+@font-face {
+  font-family: "jost";
+  src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "open-sans";
+  src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "play-fair";
+  src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+}
 /* ==< Media query's >== */
+/* ==< Mixins >==*/
 @media only screen and (max-width: 640px) {
   .product-title {
     font-size: 2em;
@@ -647,25 +811,42 @@ a:link, a:visited, a:active {
     padding: 0 10px 0 50px;
   }
 }
-/* ==< Filter Section - Product page >==*/
-@media only screen and (max-width: 1293px) {
-  .filter-text__size {
-    font-size: 23px;
-  }
-  .filter-container {
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 1052px) {
-  .filter-text__size {
-    font-size: 21px !important;
-  }
-}
 /* ==< Chef Section - Orders page >==*/
 @media only screen and (max-width: 992px) {
   .chef {
     display: none;
   }
+}
+@media only screen and (max-width: 383px) {
+  .search:hover input {
+    width: 275px;
+  }
+}
+@media only screen and (max-width: 433px) {
+  .carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+    width: 15%;
+  }
+  .carousel-control-next span, .carousel-control-prev span {
+    width: 22px;
+  }
+}
+/* ==< Mixins >==*/
+@font-face {
+  font-family: "jost";
+  src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "open-sans";
+  src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "play-fair";
+  src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
 }
 /* ==< Purchase info >== */
 .purchase-info__item {

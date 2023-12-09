@@ -1,6 +1,6 @@
 /* ==< Preguntas frecuentes >==*/
 @use 'variables';
-@use 'mixins';
+@import 'mixins';
 .section-block__actions, .section__heading {
   margin-top: 70px;
   margin-bottom: 70px;

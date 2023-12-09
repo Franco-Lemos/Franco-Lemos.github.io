@@ -1,20 +1,31 @@
 /* ==< Mixins >==*/
 @use 'variables';
-@mixin links{
+@mixin links(){
     text-decoration: none;
-    font-weight: bold;
+    font-weight: weight;
   }
 
-@mixin list-decoration{
+@mixin list-decoration($color){
   list-style: none;
   padding-left: 0;
 
   a {
     text-decoration: none;
-    color: #cc486b;
+    color: $color;
 
     &:hover {
       text-decoration: underline;
     }
   }
+}
+
+@mixin pres-card($color){
+  &:hover{
+    background-color: $color;
+  }
+}
+
+@mixin title{
+  font-family: 'play-fair';
+  color: variables.$primary-color;
 }
