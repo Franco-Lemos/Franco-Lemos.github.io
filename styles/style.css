@@ -585,6 +585,7 @@ a:link, a:visited, a:active {
   top: 0;
   height: 100%;
   transition: right 2s ease-out;
+  width: auto;
 }
 .chef-image img.loaded {
   right: 0;
