@@ -1,20 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost&family=Montserrat&family=Open+Sans&display=swap");
 /* ==< Mixins >==*/
 @font-face {
   font-family: "jost";
   src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "open-sans";
   src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "montserrat";
   src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "play-fair";
   src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+  font-display: swap;
 }
 * {
   font-family: "jost", sans-serif;
@@ -36,18 +39,22 @@ body {
 @font-face {
   font-family: "jost";
   src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "open-sans";
   src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "montserrat";
   src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "play-fair";
   src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+  font-display: swap;
 }
 /* ==< Header >==*/
 .background-primary {
@@ -88,6 +95,8 @@ body {
 
 .nav-logo {
   margin-left: 30px;
+  width: 90px;
+  height: 60px;
 }
 
 .me-right {
@@ -208,22 +217,30 @@ body {
   visibility: hidden;
 }
 
+.owl-dots {
+  visibility: hidden;
+}
+
 /* ==< Mixins >==*/
 @font-face {
   font-family: "jost";
   src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "open-sans";
   src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "montserrat";
   src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "play-fair";
   src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+  font-display: swap;
 }
 /* ==< Quick tags >== */
 .quick-tags__container {
@@ -266,18 +283,22 @@ body {
 @font-face {
   font-family: "jost";
   src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "open-sans";
   src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "montserrat";
   src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "play-fair";
   src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+  font-display: swap;
 }
 .product-title {
   font-size: 50px;
@@ -425,18 +446,22 @@ body {
 @font-face {
   font-family: "jost";
   src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "open-sans";
   src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "montserrat";
   src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "play-fair";
   src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+  font-display: swap;
 }
 .footer-title {
   font-size: 1.2em;
@@ -494,24 +519,32 @@ a:link, a:visited, a:active {
   filter: drop-shadow(0px 4px 6px rgb(48, 48, 48));
 }
 
+.whatsapp-icon {
+  width: 50px;
+}
+
 /* ==< End Footer >== */
 /* ==< Orders page >==*/
 /* ==< Mixins >==*/
 @font-face {
   font-family: "jost";
   src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "open-sans";
   src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "montserrat";
   src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "play-fair";
   src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+  font-display: swap;
 }
 .order-background {
   background: url(../assets/img/webp/cocina.webp) no-repeat center center;
@@ -562,18 +595,22 @@ a:link, a:visited, a:active {
 @font-face {
   font-family: "jost";
   src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "open-sans";
   src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "montserrat";
   src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "play-fair";
   src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+  font-display: swap;
 }
 .animate {
   animation: slideInFromLeft 1s ease-in-out;
@@ -629,18 +666,22 @@ a:link, a:visited, a:active {
 @font-face {
   font-family: "jost";
   src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "open-sans";
   src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "montserrat";
   src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "play-fair";
   src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+  font-display: swap;
 }
 .filter-container {
   width: auto;
@@ -751,18 +792,22 @@ a:link, a:visited, a:active {
 @font-face {
   font-family: "jost";
   src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "open-sans";
   src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "montserrat";
   src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "play-fair";
   src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+  font-display: swap;
 }
 /* ==< Media query's >== */
 /* ==< Mixins >==*/
@@ -835,18 +880,22 @@ a:link, a:visited, a:active {
 @font-face {
   font-family: "jost";
   src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "open-sans";
   src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "montserrat";
   src: url(../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "play-fair";
   src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+  font-display: swap;
 }
 /* ==< Purchase info >== */
 .purchase-info__item {
@@ -906,4 +955,9 @@ a:link, a:visited, a:active {
 .form-select:focus {
   border-color: #ffcae6;
   box-shadow: 0 0 0 0.25rem rgba(255, 214, 236, 0.75);
+}
+
+img {
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */

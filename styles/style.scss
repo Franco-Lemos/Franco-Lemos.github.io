@@ -1,6 +1,5 @@
 @use 'variables';
 @use 'reset';
-@use 'fuentes';
 @use 'header';
 @use 'carousel';
 @use 'quickTags';
@@ -77,4 +76,8 @@
 .form-select:focus {
   border-color: variables.$secondary-color;
   box-shadow: 0 0 0 0.25rem rgb(255, 214, 236,.75);
+}
+
+img{
+  @include image_default-size;
 }
