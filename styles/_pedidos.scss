@@ -34,11 +34,11 @@
 
   img {
     position: absolute;
+    width: auto;
     right: -100%;
     top: 0;
     height: 100%;
     transition: right 2s ease-out;
-    width: auto;
 
     &.loaded {
       right: 0;
