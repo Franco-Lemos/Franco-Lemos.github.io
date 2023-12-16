@@ -4,33 +4,108 @@
     text-decoration: none;
     font-weight: weight;
   }
-
 @mixin list-decoration($color){
   list-style: none;
   padding-left: 0;
-
   a {
     text-decoration: none;
     color: $color;
-
     &:hover {
       text-decoration: underline;
     }
   }
 }
-
 @mixin pres-card($color){
   &:hover{
     background-color: $color;
   }
 }
-
 @mixin title{
   font-family: 'play-fair';
   color: variables.$primary-color;
 }
-
 @mixin image_default-size{
   width: 100%;
   height: 100%;
 }
+@mixin christmasBall($top, $left, $right, $width, $pendulo, $seconds){
+    
+    position: absolute;
+    top: $top;
+    left: $left;
+    right: $right;
+    width: $width;
+    animation: $pendulo 5s linear infinite, bounce $seconds ease-in-out;
+    transform-origin: top center;
+    filter: drop-shadow(0px 0px 1px rgba(17, 9, 12, 0.773));
+
+  & img {
+    width: 100%;
+    height: auto;
+  }
+}
+@mixin luzON($left, $right, $titilar){
+  position: absolute;
+  top: 0%;
+  left: $left;
+  right: $right;
+  width: 25%;
+  height: 100%;
+  filter: drop-shadow(0px 0px 10px #faf6e4);
+  animation: $titilar 3s infinite;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+@mixin luzOFF($left, $right,){
+  position: absolute;
+  top: 0%;
+  left: $left;
+  right: $right;
+  width: 25%;
+  height: 100%;
+  opacity: 0.85;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+@mixin leaves($direction){
+  position: absolute;
+  width: 25.5%;
+  filter:drop-shadow(0px 0px 10px #ed95bb);
+  animation: $direction 1s ease-in-out;
+}
+
+// .luz1 {
+//   position: absolute;
+//   top: 8%;
+//   right: auto;
+//   width: 3%;
+//   left: 12%;
+//   transform: rotate(64deg);
+
+//   img {
+//     width: 100%;
+//     height: auto;
+//   }
+// }
+
+// .luz2 {
+//   position: absolute;
+//   top: 8%;
+//   right: auto;
+//   width: 3%;
+//   left: 12%;
+//   transform: rotate(64deg);
+//   filter: drop-shadow(0px 0px 10px gold);
+//   animation: titilar 3s infinite;
+
+//   img {
+//     width: 100%;
+//     height: auto;
+//   }
+// }

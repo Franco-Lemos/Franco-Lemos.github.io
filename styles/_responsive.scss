@@ -83,3 +83,38 @@
     }
   }
 }
+@media only screen and (max-width: 576px){
+  #mainCarousel{
+    display: none;  }
+}
+@media only screen and (max-width: 1200px){
+  .banner-orders {
+    border-radius: 65px;
+  }
+  .order-background{
+    border-radius: 65px;
+  }
+}
+@media only screen and (max-width: 1015px){
+  .banner-orders {
+    border-radius: 55px;
+  }
+  .order-background{
+    border-radius: 55px;
+  }
+}
+@media only screen and (max-width: 546px){
+  .banner-orders {
+    border-radius: 45px;
+  }
+  .order-background{
+    border-radius: 45px;
+  }
+}
+@media only screen and (max-width: 1090px){
+  .chef-image {
+    img {
+      width: 100%;
+    }
+  }
+}
