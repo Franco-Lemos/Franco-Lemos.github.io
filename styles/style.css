@@ -469,6 +469,9 @@ body {
 }
 
 .footer-bg {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   background-color: #ffcae6;
 }
 
@@ -1198,7 +1201,7 @@ a:link, a:visited, a:active {
     border-radius: 45px;
   }
 }
-@media only screen and (max-width: 1090px) {
+@media only screen and (max-width: 1251px) {
   .chef-image img {
     width: 100%;
   }
