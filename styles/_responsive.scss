@@ -119,3 +119,11 @@
     }
   }
 }
+@media only screen and (max-width: 1759px){
+  .filter-tags__list a{
+    text-wrap: wrap;
+  }
+  .filter-tags__list {
+    display: block;
+  }
+}
