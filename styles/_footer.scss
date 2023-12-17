@@ -41,15 +41,17 @@
     justify-content: center;
   }
 }
+.footer-icons {
+  color: variables.$primary-color;
 
-.pay-methods__social-f {
-  padding: 0px 10px 0px 0px !important;
+  &:hover {
+    color: #000 !important;
+  }
 }
 
 .pay-methods__contact {
   text-decoration: none;
 }
-
 a {
   &:link, &:visited, &:active {
     @include links;
