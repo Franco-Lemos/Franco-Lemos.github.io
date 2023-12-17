@@ -127,3 +127,8 @@
     display: block;
   }
 }
+@media only screen and (max-width: 640px){
+  .footer-title {
+    font-size: 1.5em !important;
+  }
+}
