@@ -479,7 +479,8 @@ body {
 
 .navbar-toggler {
   color: transparent;
-  background-color: #ffcae6;
+  background-color: unset;
+  border: 0;
 }
 
 .navbar-nav {
