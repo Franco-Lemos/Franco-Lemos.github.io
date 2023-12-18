@@ -30,6 +30,9 @@
   border-style: solid;
   box-sizing: border-box;
   border-radius: 20px;
+  &:hover{
+    background-color: #f7004229;
+  }
 }
 
 .quick-tags__list {
