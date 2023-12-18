@@ -12,14 +12,12 @@
   background-image: url(../assets/img/cupcake8.jpg);
   background-size: cover;
 }
-
 .filter-body {
   width: auto;
   height: auto;
   padding: 0px 16px;
   background: #f7f7f750;
   backdrop-filter: blur(0.5rem);
-
   h2 {
     padding: 16px 10px 0px 10px;
     margin: 0px 0px;
@@ -27,7 +25,6 @@
     @include title;
   }
 }
-
 .filter-btn{
   display: flex;
   width: auto;
@@ -42,7 +39,6 @@
   color: #cc486b;
   text-decoration: none;
 }
-
 .list-deco {
   margin-bottom: auto;
   @include list-decoration(variables.$primary-color);
@@ -55,7 +51,6 @@
     font-weight: 700;
   }
 }
-
 .filter-tags__link {
   font-size: 17px;
   padding: 7px;
@@ -65,7 +60,6 @@
   box-sizing: border-box;
   border-radius: 20px;
 }
-
 .filter-tags__item-list {
   box-sizing: content-box;
   margin-top: 5px;
@@ -75,21 +69,18 @@
 
   a {
     text-decoration: none;
-    text-wrap: wrap;
 
     &:hover{
       background-color: #d0f2f3;
     }
   }
 }
-
 .filter-tags__list {
   margin: 17.5px 0px 17.5px 0px;
   padding-left: 0px;
   text-wrap: nowrap;
   padding-inline-start: 0px;
 }
-
 .filter-tags__container {
   padding: 0;
 }
