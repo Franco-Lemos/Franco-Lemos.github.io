@@ -646,6 +646,9 @@ body {
   box-sizing: border-box;
   border-radius: 20px;
 }
+.quick-tags__link:hover {
+  background-color: rgba(247, 0, 66, 0.1607843137);
+}
 
 .quick-tags__list {
   margin: 17.5px 0px 17.5px 0px;
