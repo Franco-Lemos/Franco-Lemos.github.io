@@ -498,8 +498,11 @@ body {
   justify-content: center;
 }
 
-.pay-methods__social-f {
-  padding: 0px 10px 0px 0px !important;
+.footer-icons {
+  color: #cc486b;
+}
+.footer-icons:hover {
+  color: #000 !important;
 }
 
 .pay-methods__contact {
@@ -1131,6 +1134,7 @@ a:link, a:visited, a:active {
     position: absolute;
     visibility: hidden;
     z-index: -1;
+    width: 0;
   }
 }
 /* ==< Search bar >==*/
@@ -1201,6 +1205,19 @@ a:link, a:visited, a:active {
 @media only screen and (max-width: 1251px) {
   .chef-image img {
     width: 100%;
+  }
+}
+@media only screen and (max-width: 1759px) {
+  .filter-tags__list a {
+    text-wrap: wrap;
+  }
+  .filter-tags__list {
+    display: block;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .footer-title {
+    font-size: 1.5em !important;
   }
 }
 /* ==< Mixins >==*/
