@@ -40,11 +40,6 @@
   font-size: 1rem;
   font-weight: 400;
 }
-
-.mar-0 {
-  margin-bottom: 0;
-}
-
 /* ==< End Purchase info >== */
 /* ==< Contact e-mail >==*/
 
@@ -80,4 +75,9 @@
 
 img{
   @include image_default-size;
+}
+
+.banner-mobile{
+  border: 1px solid white;
+  border-radius: 15%;
 }
