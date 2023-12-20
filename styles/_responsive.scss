@@ -36,6 +36,11 @@
     width: 0;
   }
 }
+@media only screen and (max-width: 992px) {
+  .filter-container {
+    height: 0;
+  }
+}
 
 /* ==< Search bar >==*/
 @media only screen and (max-width: 992px){
