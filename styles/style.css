@@ -1688,4 +1688,7 @@ img {
 .banner-mobile {
   border: 1px solid white;
   border-radius: 15%;
+}
+.m-h{
+  min-height: 100vh;
 }/*# sourceMappingURL=style.css.map */
